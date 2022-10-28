@@ -1,0 +1,13 @@
+{% extends "blog/base.html" %}
+
+{% block main %}
+
+<h1>サウナ情報を登録する</h1>
+  <form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" class='btn btn-primary' value="登録">
+
+
+  </form>
+{% endblock %}

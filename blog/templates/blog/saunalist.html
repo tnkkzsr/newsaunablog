@@ -1,0 +1,37 @@
+{% extends "blog/base.html" %}
+{% load static %}
+    
+   
+{% block main %}
+
+    <ol>
+        
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">サウナ名</th>
+                <th scope="col">投稿者</th>
+                <th scope="col">投稿日</th>
+                </tr>
+            </thead>
+          {% for sauna in sauna_list %}
+            <tbody>
+              <tr>
+                <td><a href="{% url 'detail' sauna.pk%}">{{ sauna.name }}</a></td>
+                <td>{{ sauna.author }}</td>
+                <td>{{ sauna.created }}</td>
+              </tr>
+            <tbody>
+            {% endfor %}
+        </table>
+        
+
+
+
+
+        
+        
+    </ol>
+
+{% endblock %}

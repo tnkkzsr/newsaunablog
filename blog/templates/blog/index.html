@@ -1,0 +1,21 @@
+{% extends "blog/base.html" %}
+{% load static %}
+
+{% block main %}
+<div class="main">
+    <div class="intro">
+        <h2>このブログについて</h2>
+        <p>このブログは、サウナ好きのためのブログです</p>
+        <p>自分が行ったサウナの情報をみんなに共有してみましょう</p>
+        <img class="top-img" src="{% static 'wellbeimake.jpg' %}" width="390px" height="260px" />
+
+    </div>
+    <div class="btn-wrapper">
+       
+        <a class="btn posting-btn" href="{% url 'mypage' %}">ログイン・投稿する</a>
+        <a class="btn view-btn" href="{% url 'list' %}">みんなの投稿を見る</a>
+    </div >
+    
+
+</div>
+{% endblock %}

@@ -1,0 +1,17 @@
+{% extends "blog/base.html" %}
+
+{% block main %}
+
+<h1>{{sauna.name}}</h1>
+<p>投稿者：{{sauna.author}}</p>
+<p>投稿日：{{sauna.created}}</p>
+<p>料金：{{sauna.fee}}</p>
+<p>ロウリュの有無：{{sauna.rouryu}}</p>
+<p>場所、地域：{{sauna.place}}</p>
+<p>特徴：{{sauna.FreeText}}</p>
+
+<p><a class='btn' href="{% url 'update' pk=sauna.pk%}">投稿を編集</a></p>
+<p><a class='btn' href="{% url 'delete' pk=sauna.pk%}">投稿を削除</a></p>
+<p><a  href="{% url 'list'%}">一覧へ戻る</a></p>
+  
+{% endblock %}
