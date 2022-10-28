@@ -1,0 +1,17 @@
+header {
+    background: black;
+    height: 60px;
+    color:white;
+   
+}
+
+.header-left{
+    float:left; 
+}
+
+.header-right{
+    float:right;
+   
+}
+  
+  

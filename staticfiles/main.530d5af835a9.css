@@ -1,0 +1,29 @@
+.header {
+    height: 90px;
+    width: 100%;
+    background-color: rgba(6, 19, 21, 0.9);
+  }
+
+.header-left{
+    float:left; 
+    
+}
+
+.header-logo {
+    float: left;
+    font-size: 36px;
+    color: white;
+    /* 上下のpaddingを20px、左右のpaddingを40pxにしてください */
+    padding:20px 40px 20px 40px;
+}  
+
+
+.header-right a{
+    line-height:65px;
+    padding-right:10px;
+    padding-left:10px;
+    color:white;
+   
+  }
+  
+  

@@ -1,0 +1,49 @@
+.header {
+    height: 90px;
+    width: 100%;
+    background-color: rgba(6, 19, 21, 0.9);
+  }
+
+.header-left{
+    float:left; 
+    
+}
+
+.header-logo {
+    float: left;
+    font-size: 36px;
+    color: white;
+    /* 上下のpaddingを20px、左右のpaddingを40pxにしてください */
+    padding:20px 40px 20px 40px;
+}  
+
+.header-right a{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    color:white;
+    line-height:90px;
+}
+.header-right{
+    float: right;
+    padding-right: 20px;
+}
+
+.main{
+    height: 600px;
+    text-align: center;
+}
+  
+.intro{
+    text-align: center;
+}
+.btn-wrapper{
+    padding-top: 20px;
+}
+.btn{
+    padding:8px 24px 8px 24px;
+    color:white;
+    display:inline-block;
+    opacity:0.8;
+    background-color:black;
+}

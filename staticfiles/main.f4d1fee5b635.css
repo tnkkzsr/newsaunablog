@@ -1,0 +1,16 @@
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(76, 151, 167, 0.9);
+  }
+
+.header-left{
+    float:left; 
+}
+
+.header-right{
+    float:right;
+   
+}
+  
+  

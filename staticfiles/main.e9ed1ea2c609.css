@@ -1,0 +1,25 @@
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(6, 19, 21, 0.9);
+  }
+
+.header-left{
+    float:left; 
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height:65px;
+}
+
+
+
+.header-right a{
+    line-height:65px;
+    padding-right:10px;
+    padding-left:10px;
+    color:white;
+   
+  }
+  
+  
